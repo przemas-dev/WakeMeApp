@@ -1,7 +1,8 @@
 export interface WakeUpJob {
     url: string;
     frequency: Frequency;
-    creationDate: Date;
+    createdAt?: Date;
+    updatedAt?: Date;
 }
 
 export enum Frequency {
